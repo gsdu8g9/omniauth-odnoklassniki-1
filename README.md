@@ -22,6 +22,7 @@ use OmniAuth::Builder do
   provider :odnoklassniki, ENV['APP_ID'], ENV['APP_SECRET_KEY'], public_key: ENV['APP_PUBLIC_KEY']
     scope: 'VALUABLE_ACCESS'
 end
+```
 
 ## License
 
